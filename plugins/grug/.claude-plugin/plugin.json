@@ -1,0 +1,25 @@
+{
+  "name": "grug",
+  "version": "0.1.0",
+  "description": "Lazy senior dev in a box: write the least correct code, search on the cheapest model, parallelize independent work, report like a caveman.",
+  "author": {
+    "name": "Lemxy",
+    "url": "https://github.com/Lemxy"
+  },
+  "license": "MIT",
+  "keywords": [
+    "yagni",
+    "cost-optimization",
+    "subagents",
+    "code-review"
+  ],
+  "components": {
+    "skills": [
+      "skills/"
+    ],
+    "agents": [
+      "agents/"
+    ]
+  },
+  "repository": "https://github.com/Lemxy/grug-marketplace"
+}
