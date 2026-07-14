@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "grug-marketplace",
+  "owner": {
+    "name": "Lemxy",
+    "url": "https://github.com/Lemxy"
+  },
+  "metadata": {
+    "description": "Personal marketplace hosting the grug plugin: lazy senior dev discipline for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "grug",
+      "description": "Lazy senior dev in a box: write the least correct code, search on the cheapest model, parallelize independent work, report like a caveman.",
+      "source": "./plugins/grug",
+      "category": "development",
+      "keywords": [
+        "yagni",
+        "cost-optimization",
+        "subagents",
+        "code-review"
+      ]
+    }
+  ]
+}
